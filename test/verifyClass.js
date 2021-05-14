@@ -118,12 +118,12 @@ var verifyClass = function(constructor) {
         });
 
         var referencesReturn = requireOption('referencesReturn');
-        it(might('reference the return keyword', referencesReturn), function() {
+        xit(might('reference the return keyword', referencesReturn), function() {
           assuming(referencesReturn).expect(/return/.test(constructor)).to.be.true;
         });
 
         var declaresVariables = requireOption('declaresVariables');
-        it(might('declare variables', declaresVariables), function() {
+        xit(might('declare variables', declaresVariables), function() {
           assuming(declaresVariables).expect(/var /.test(constructor)).to.be.true;
         });
 

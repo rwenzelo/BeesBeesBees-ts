@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "open test/index.html"
+    "watch-compile": "npx tsc --outdir dist --watch",
+    "compile": "npx tsc --outdir dist",
+    "test": "npm run compile && open test/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +18,9 @@
     "jquery": "^3.2.1",
     "mocha": "^3.5.0",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.3",
+    "typescript": "^4.2.4"
   }
 }
