@@ -37,18 +37,18 @@ One exciting feature is the inclusion of a `class` keyword! This is a big change
 Build your first class in Grub.js. Grub will act as the superclass for all other types of bees. Work through the repo in the order specified below, making sure to pass all of the specs in `test/index.html` - which you should open in your browser when you run `npm test`.
 
 #### Things To Note:
-- This assignment must be written with ES6 classes by using the new `class`, `extends`, and `super` keywords
+- This assignment must be written with TypeScript classes by using the `class`, `extends`, and `super` keywords
 - Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails the spec runner stops running and you must pass the current test to continue.
 
 #### Grub
-- [ ] Create a Grub class, in ES6 style, with:
+- [ ] Create a Grub class, in TypeScript style, with:
   - [ ] an `age` property that is set to `0`
   - [ ] a `color` property that is set to `pink`
   - [ ] a `food` property that is set to `jelly`
   - [ ] an `eat` method that returns `'Mmmmmmmmm jelly'`
 
 #### Bee
-- [ ] Create a Bee class, in ES6 style, with:
+- [ ] Create a Bee class, in TypeScript style, with:
   - [ ] the Grub superclass
   - [ ] an `age` property that is set to `5`
   - [ ] a `color` property that is set to `yellow`
@@ -57,7 +57,7 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] a `job` property that is set to `Keep on growing`
 
 #### HoneyMakerBee
-- [ ] Create a HoneyMakerBee class, in ES6 style, with:
+- [ ] Create a HoneyMakerBee class, in TypeScript style, with:
   - [ ] the Bee superclass
   - [ ] an age property that is set to `10`
   - [ ] a job property that is set to `make honey`
@@ -69,7 +69,7 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] a `giveHoney` method that subtracts `1` from that honeyBee's `honeyPot`
 
 #### ForagerBee
-- [ ] Create a ForagerBee class, in ES6 style, with:
+- [ ] Create a ForagerBee class, in TypeScript style, with:
   - [ ] the Bee superclass
   - [ ] an age property that is set to `10`
   - [ ] a `job` property that is set to `find pollen`
@@ -81,7 +81,7 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] a `forage` method that allows the bee to add a `treasure` to the `treasureChest`
 
 #### RetiredForagerBee
-- [ ] Create a RetiredForagerBee class, in ES6 style, with:
+- [ ] Create a RetiredForagerBee class, in TypeScript style, with:
   - [ ] the ForagerBee superclass
   - [ ] an `age` property that is set to `40`
   - [ ] a `job` property that is set to `gamble`
